@@ -37,7 +37,7 @@ def getWordList ():
 
 # This function saves output data to output.csv.
 def saveOutput (output):
-    with open('output.csv', 'a', encoding='utf-8-sig', newline='') as outputFile:
+    with open('../dataset/raw/output.csv', 'a', encoding='utf-8-sig', newline='') as outputFile:
         writer = csv.writer(outputFile)
         writer.writerows(output)
     outputFile.close()
