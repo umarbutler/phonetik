@@ -5,7 +5,7 @@
 A [script](https://github.com/umarbutler/phonetik/tree/main/scripts/preprocess.py) was used to remove duplicates and words begining, or ending, with a '-', from the scraped data. The resulting processed data is available [here](https://github.com/umarbutler/phonetik/blob/main/dataset/processed).
 
 ## License
-[Hermitdave's FrequencyWords list](https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2016/ar/ar_50k.txt) is licensed under CC-BY-SA-4.0.[Wiktionary](https://en.wiktionary.org/wiki/Wiktionary:Main_Page) is licensed under CC BY-SA 3.0.
+[Hermitdave's FrequencyWords list](https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2016/ar/ar_50k.txt) is licensed under CC-BY-SA-4.0. [Wiktionary](https://en.wiktionary.org/wiki/Wiktionary:Main_Page) is licensed under CC BY-SA 3.0.
 
 All unique code in this project is licensed under GNU GPLv3. The corpus, itself, is licensed under CC BY-SA 3.0.
 
