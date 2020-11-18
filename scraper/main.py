@@ -27,7 +27,7 @@ def extractData (soup):
 # This function gets a word list to be used for querying wiktionary.
 def getWordList ():
     # Open hermitdave's FrequencyWords' 50k Arabic word list.
-    with open('wordlists/hermitdave_frequencywords_ar_50k.csv', encoding='utf-8-sig') as wordListCsv:
+    with open('../dataset/wordlists/hermitdave_frequencywords_ar_50k.csv', encoding='utf-8-sig') as wordListCsv:
         # Store the word list in wordList.
         wordList = list(csv.reader(wordListCsv, delimiter=' '))
     # Close wordListCsv.
